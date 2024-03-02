@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Styling */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(229, 210, 131);
+    position: sticky;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.mp-title {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.mp-title:hover {
+    cursor: pointer;
+}
+
+.mp-logo {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 30x;
+}
+
+.mp-name {
+    color: black;
+    margin: 10px;
+}
+
+
+.h-search {
+    width: 50%;
+    padding-top: 15px;
+}
+
+.search-bar {
+    background-color: rgb(236, 249, 245);
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgb(242, 216, 216);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px gray;
+}
+
+.search-bar::placeholder {
+    padding-left: 10px;
+    color: gray;
+}
+
+
+.info-bar {
+    width: 20%;
+    height: 100px;
+    padding-right: 10px;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.material-symbols-outlined {
+    margin: 5px;
+}
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* COL-1 STYLING */
+
+body {
+    background-color: rgb(245, 247, 248);
+}
+
+.col1 {
+    width: 20%;
+    height: auto;
+    background-color: rgb(117, 127, 127);
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home-bar {
+    background-color: rgb(170, 177, 192);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.home-bar:hover {
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+.home1:hover {
+    background-color: antiquewhite;
+}
+
+.home-title {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.home-icon {
+    margin-left: 7px;
+}
+
+
+.playlist-bar {
+    background-color: rgb(170, 177, 192);
+    width: 92%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.p-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+}
+
+.p-search {
+    margin-right: 70px;
+}
+
+.p-recents {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.playlists {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(92, 104, 104);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.playlists:hover {
+    background-color:rgba(92, 104, 104, 0.8) ;
+    cursor: pointer;
+}
+
+.playlist-title {
+    margin-bottom: 10px;
+}
+
+.playlist-icon {
+    border-radius: 10px;
+}
+
+.playlist-name {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: rgb(209, 191, 103);
+}
+.playlist-detail {
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+
+
+
+/* COL-2 STYLING */
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    width: 96%;
+    height: auto;
+    background-color: rgb(196, 200, 210);
+    border-radius: 10px;
+}
+
+.cont-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-title{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content:space-between;
+}
+.cont-show {
+    padding-top: 10px;
+    font-weight: 600;
+}
+.cont-show:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 175px;
+    height: auto;
+    background-color: rgb(92, 104, 104);
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 5px 20px 5px 10px;
+    justify-content: space-between;
+}
+.card:hover {
+    background-color:rgba(92, 104, 104, 0.8) ;
+    cursor: pointer;
+}
+
+.card-img img {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.card-details {
+    margin-top: 10px;
+    color: rgb(220, 190, 42);
+
+}
+.card-details p {
+    font-size: small;
+    color: white;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    width: 100%;
+    height: 55px;
+    background-color: rgba(220, 220, 220, .95);
+    padding-top: 5px;
+    position: sticky;
+    bottom: 0px;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.current-song {
+    display: flex;
+    flex-direction: row;
+    margin-left:40px ;
+    color: darkslategrey;
+}
+
+.current-img {
+    margin-right: 30px;
+}
+.current-details {
+    margin-top: 5px;
+}
+.current-details p {
+    color: lightslategray;
+}
+
+.controls{
+    margin-top:5px;
+    margin-left: 50px   ;
+}
